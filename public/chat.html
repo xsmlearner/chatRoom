@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>轻量聊天室 - 聊天</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="sidebar">
+        <div class="me">
+          <span id="me-name"></span>
+          <button id="btn-logout">退出登录</button>
+        </div>
+        <div class="search">
+          <input id="search-user" placeholder="搜索用户" />
+          <button id="btn-search">搜索</button>
+          <ul id="user-list"></ul>
+        </div>
+        <div class="groups">
+          <div style="display:flex; gap:6px;">
+            <input id="group-name" placeholder="创建群聊名称" />
+            <button id="btn-create-group">创建群聊</button>
+          </div>
+          <div style="display:flex; gap:6px; margin-top:8px;">
+            <input id="group-search" placeholder="搜索群聊" />
+            <button id="btn-group-search">搜索</button>
+          </div>
+          <ul id="group-list"></ul>
+        </div>
+      </div>
+      <div class="chat">
+        <div id="chat-header">
+          <button id="btn-back" class="back">返回</button>
+          <div class="title"></div>
+          <div class="actions">
+            <button id="btn-members">群成员</button>
+          </div>
+        </div>
+        <div id="messages"></div>
+        <div id="composer">
+          <input id="msg-input" type="text" placeholder="输入消息..." />
+          <input type="file" id="img-input" accept="image/*" />
+          <button id="btn-send">发送</button>
+        </div>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+  </body>
+  </html>

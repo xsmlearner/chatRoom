@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>轻量聊天室 - 登录</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="auth">
+      <h2>登录</h2>
+      <input id="login-username" placeholder="用户名" />
+      <input id="login-password" type="password" placeholder="密码" />
+      <button id="btn-login">登录</button>
+      <h3>没有账号？注册</h3>
+      <input id="reg-username" placeholder="用户名" />
+      <input id="reg-password" type="password" placeholder="密码" />
+      <input id="reg-question" placeholder="找回密码问题（可选）" />
+      <input id="reg-answer" placeholder="找回密码答案（可选）" />
+      <button id="btn-register">注册</button>
+      <h3>找回密码</h3>
+      <input id="reset-username" placeholder="用户名" />
+      <input id="reset-answer" placeholder="找回答案" />
+      <input id="reset-newpass" type="password" placeholder="新密码" />
+      <button id="btn-reset">重置密码</button>
+    </div>
+
+    <!-- 登录页不包含聊天界面，聊天在 /chat.html -->
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+  </body>
+  </html>

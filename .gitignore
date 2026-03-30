@@ -1,0 +1,6 @@
+.trae/
+node_modules/
+docs/
+uploads/
+.vercel/
+cloudflared.exe
