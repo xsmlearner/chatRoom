@@ -1008,7 +1008,8 @@ io.on('connection', (socket) => {
   });
 });
 
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
-  console.log(`Light chat running at http://localhost:${PORT}`);
-});
+// const PORT = process.env.PORT || 3000;
+// server.listen(PORT, () => {
+//   console.log(`Light chat running at http://localhost:${PORT}`);
+// });
+module.exports = app;
