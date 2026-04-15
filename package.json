@@ -6,7 +6,6 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "install": "npm install",
     "build": "echo 'Build completed'"
   },
   "dependencies": {
