@@ -5,6 +5,7 @@
   "description": "A lightweight realtime chat (groups & private) with SQLite and Socket.IO",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "install": "npm install",
     "build": "echo 'Build completed'"
   },
