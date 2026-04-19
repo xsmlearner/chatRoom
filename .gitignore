@@ -4,3 +4,7 @@ docs/
 uploads/
 .vercel/
 cloudflared.exe
+chat.sqlite
+chat.sqlite-shm
+chat.sqlite-wal
+.env.example
