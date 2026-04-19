@@ -1,0 +1,332 @@
+0 verbose cli E:\Program Files\nodejs\node.exe E:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.10.0
+3 silly config load:file:E:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\chatRoom\frontend\.npmrc
+5 silly config load:file:C:\Users\XSM\.npmrc
+6 silly config load:file:D:\Program Files\nodejs\node_global\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\chatRoom\frontend\.npm-cache\_logs\2026-04-19T07_00_49_622Z-
+10 verbose logfile D:\chatRoom\frontend\.npm-cache\_logs\2026-04-19T07_00_49_622Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 http fetch GET 200 https://registry.npmmirror.com/npm 462ms
+15 silly reify moves {}
+16 silly audit bulk request {
+16 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+16 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+16 silly audit   '@babel/parser': [ '7.29.2' ],
+16 silly audit   '@babel/types': [ '7.29.0' ],
+16 silly audit   '@esbuild/aix-ppc64': [ '0.21.5' ],
+16 silly audit   '@esbuild/android-arm': [ '0.21.5' ],
+16 silly audit   '@esbuild/android-arm64': [ '0.21.5' ],
+16 silly audit   '@esbuild/android-x64': [ '0.21.5' ],
+16 silly audit   '@esbuild/darwin-arm64': [ '0.21.5' ],
+16 silly audit   '@esbuild/darwin-x64': [ '0.21.5' ],
+16 silly audit   '@esbuild/freebsd-arm64': [ '0.21.5' ],
+16 silly audit   '@esbuild/freebsd-x64': [ '0.21.5' ],
+16 silly audit   '@esbuild/linux-arm': [ '0.21.5' ],
+16 silly audit   '@esbuild/linux-arm64': [ '0.21.5' ],
+16 silly audit   '@esbuild/linux-ia32': [ '0.21.5' ],
+16 silly audit   '@esbuild/linux-loong64': [ '0.21.5' ],
+16 silly audit   '@esbuild/linux-mips64el': [ '0.21.5' ],
+16 silly audit   '@esbuild/linux-ppc64': [ '0.21.5' ],
+16 silly audit   '@esbuild/linux-riscv64': [ '0.21.5' ],
+16 silly audit   '@esbuild/linux-s390x': [ '0.21.5' ],
+16 silly audit   '@esbuild/linux-x64': [ '0.21.5' ],
+16 silly audit   '@esbuild/netbsd-x64': [ '0.21.5' ],
+16 silly audit   '@esbuild/openbsd-x64': [ '0.21.5' ],
+16 silly audit   '@esbuild/sunos-x64': [ '0.21.5' ],
+16 silly audit   '@esbuild/win32-arm64': [ '0.21.5' ],
+16 silly audit   '@esbuild/win32-ia32': [ '0.21.5' ],
+16 silly audit   '@esbuild/win32-x64': [ '0.21.5' ],
+16 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+16 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-android-arm64': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-darwin-arm64': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-darwin-x64': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-freebsd-x64': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-openbsd-x64': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.60.0' ],
+16 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.60.0' ],
+16 silly audit   '@socket.io/component-emitter': [ '3.1.2' ],
+16 silly audit   '@types/estree': [ '1.0.8' ],
+16 silly audit   '@vitejs/plugin-vue': [ '5.2.4' ],
+16 silly audit   '@vue/compiler-core': [ '3.5.30' ],
+16 silly audit   '@vue/compiler-dom': [ '3.5.30' ],
+16 silly audit   '@vue/compiler-sfc': [ '3.5.30' ],
+16 silly audit   '@vue/compiler-ssr': [ '3.5.30' ],
+16 silly audit   '@vue/reactivity': [ '3.5.30' ],
+16 silly audit   '@vue/runtime-core': [ '3.5.30' ],
+16 silly audit   '@vue/runtime-dom': [ '3.5.30' ],
+16 silly audit   '@vue/server-renderer': [ '3.5.30' ],
+16 silly audit   '@vue/shared': [ '3.5.30' ],
+16 silly audit   autoprefixer: [ '10.4.27' ],
+16 silly audit   'baseline-browser-mapping': [ '2.10.10' ],
+16 silly audit   browserslist: [ '4.28.1' ],
+16 silly audit   'caniuse-lite': [ '1.0.30001780' ],
+16 silly audit   csstype: [ '3.2.3' ],
+16 silly audit   debug: [ '4.4.3' ],
+16 silly audit   'electron-to-chromium': [ '1.5.321' ],
+16 silly audit   'engine.io-client': [ '6.6.4' ],
+16 silly audit   'engine.io-parser': [ '5.2.3' ],
+16 silly audit   entities: [ '7.0.1' ],
+16 silly audit   esbuild: [ '0.21.5' ],
+16 silly audit   escalade: [ '3.2.0' ],
+16 silly audit   'estree-walker': [ '2.0.2' ],
+16 silly audit   'fraction.js': [ '5.3.4' ],
+16 silly audit   fsevents: [ '2.3.3' ],
+16 silly audit   'magic-string': [ '0.30.21' ],
+16 silly audit   ms: [ '2.1.3' ],
+16 silly audit   nanoid: [ '3.3.11' ],
+16 silly audit   'node-releases': [ '2.0.36' ],
+16 silly audit   picocolors: [ '1.1.1' ],
+16 silly audit   postcss: [ '8.5.8' ],
+16 silly audit   'postcss-value-parser': [ '4.2.0' ],
+16 silly audit   rollup: [ '4.60.0' ],
+16 silly audit   'socket.io-client': [ '4.8.3' ],
+16 silly audit   'socket.io-parser': [ '4.2.6' ],
+16 silly audit   'source-map-js': [ '1.2.1' ],
+16 silly audit   'update-browserslist-db': [ '1.2.3' ],
+16 silly audit   vite: [ '5.4.21' ],
+16 silly audit   vue: [ '3.5.30' ],
+16 silly audit   ws: [ '8.18.3' ],
+16 silly audit   'xmlhttprequest-ssl': [ '2.1.2' ]
+16 silly audit }
+17 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\fsevents
+18 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\fsevents' ]
+19 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-win32-ia32-msvc
+20 silly reify mark deleted [
+20 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+20 silly reify ]
+21 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-win32-arm64-msvc
+22 silly reify mark deleted [
+22 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+22 silly reify ]
+23 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-openharmony-arm64
+24 silly reify mark deleted [
+24 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-openharmony-arm64'
+24 silly reify ]
+25 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-openbsd-x64
+26 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-openbsd-x64' ]
+27 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-x64-musl
+28 silly reify mark deleted [
+28 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-x64-musl'
+28 silly reify ]
+29 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-x64-gnu
+30 silly reify mark deleted [
+30 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+30 silly reify ]
+31 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-s390x-gnu
+32 silly reify mark deleted [
+32 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+32 silly reify ]
+33 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-riscv64-musl
+34 silly reify mark deleted [
+34 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+34 silly reify ]
+35 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-riscv64-gnu
+36 silly reify mark deleted [
+36 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+36 silly reify ]
+37 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-ppc64-musl
+38 silly reify mark deleted [
+38 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+38 silly reify ]
+39 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-ppc64-gnu
+40 silly reify mark deleted [
+40 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+40 silly reify ]
+41 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-loong64-musl
+42 silly reify mark deleted [
+42 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+42 silly reify ]
+43 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-loong64-gnu
+44 silly reify mark deleted [
+44 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+44 silly reify ]
+45 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-arm64-musl
+46 silly reify mark deleted [
+46 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+46 silly reify ]
+47 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-arm64-gnu
+48 silly reify mark deleted [
+48 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+48 silly reify ]
+49 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-arm-musleabihf
+50 silly reify mark deleted [
+50 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+50 silly reify ]
+51 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-linux-arm-gnueabihf
+52 silly reify mark deleted [
+52 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+52 silly reify ]
+53 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-freebsd-x64
+54 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-freebsd-x64' ]
+55 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-freebsd-arm64
+56 silly reify mark deleted [
+56 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-freebsd-arm64'
+56 silly reify ]
+57 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-darwin-x64
+58 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-darwin-x64' ]
+59 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-darwin-arm64
+60 silly reify mark deleted [
+60 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-darwin-arm64'
+60 silly reify ]
+61 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-android-arm64
+62 silly reify mark deleted [
+62 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-android-arm64'
+62 silly reify ]
+63 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@rollup\rollup-android-arm-eabi
+64 silly reify mark deleted [
+64 silly reify   'D:\\chatRoom\\frontend\\node_modules\\@rollup\\rollup-android-arm-eabi'
+64 silly reify ]
+65 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\win32-ia32
+66 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\win32-ia32' ]
+67 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\win32-arm64
+68 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\win32-arm64' ]
+69 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\sunos-x64
+70 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\sunos-x64' ]
+71 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\openbsd-x64
+72 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\openbsd-x64' ]
+73 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\netbsd-x64
+74 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\netbsd-x64' ]
+75 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\linux-x64
+76 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\linux-x64' ]
+77 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\linux-s390x
+78 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\linux-s390x' ]
+79 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\linux-riscv64
+80 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\linux-riscv64' ]
+81 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\linux-ppc64
+82 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\linux-ppc64' ]
+83 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\linux-mips64el
+84 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\linux-mips64el' ]
+85 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\linux-loong64
+86 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\linux-loong64' ]
+87 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\linux-ia32
+88 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\linux-ia32' ]
+89 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\linux-arm64
+90 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\linux-arm64' ]
+91 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\linux-arm
+92 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\linux-arm' ]
+93 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\freebsd-x64
+94 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\freebsd-x64' ]
+95 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\freebsd-arm64
+96 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\freebsd-arm64' ]
+97 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\darwin-x64
+98 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\darwin-x64' ]
+99 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\darwin-arm64
+100 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\darwin-arm64' ]
+101 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\android-x64
+102 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\android-x64' ]
+103 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\android-arm64
+104 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\android-arm64' ]
+105 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\android-arm
+106 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\android-arm' ]
+107 verbose reify failed optional dependency D:\chatRoom\frontend\node_modules\@esbuild\aix-ppc64
+108 silly reify mark deleted [ 'D:\\chatRoom\\frontend\\node_modules\\@esbuild\\aix-ppc64' ]
+109 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 55ms
+110 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+110 verbose audit error     at E:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+110 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+110 verbose audit error     at async #getReport (E:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:275:19)
+110 verbose audit error     at async AuditReport.run (E:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:100:19) {
+110 verbose audit error   headers: [Object: null prototype] {
+110 verbose audit error     server: [ 'Tengine' ],
+110 verbose audit error     date: [ 'Sun, 19 Apr 2026 07:01:08 GMT' ],
+110 verbose audit error     'content-type': [ 'application/json' ],
+110 verbose audit error     'transfer-encoding': [ 'chunked' ],
+110 verbose audit error     connection: [ 'keep-alive' ],
+110 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+110 verbose audit error     via: [ 'kunlun3.cn6953[,404666]' ],
+110 verbose audit error     'timing-allow-origin': [ '*' ],
+110 verbose audit error     eagleid: [ '75a3379717765820686555566e' ],
+110 verbose audit error     'x-fetch-attempts': [ '1' ]
+110 verbose audit error   },
+110 verbose audit error   statusCode: 404,
+110 verbose audit error   code: 'E404',
+110 verbose audit error   method: 'POST',
+110 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk',
+110 verbose audit error   body: {
+110 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+110 verbose audit error   },
+110 verbose audit error   pkgid: undefined
+110 verbose audit error }
+111 silly audit error [object Object]
+112 silly audit report null
+113 silly ADD node_modules/fsevents
+114 silly ADD node_modules/@rollup/rollup-win32-ia32-msvc
+115 silly ADD node_modules/@rollup/rollup-win32-arm64-msvc
+116 silly ADD node_modules/@rollup/rollup-openharmony-arm64
+117 silly ADD node_modules/@rollup/rollup-openbsd-x64
+118 silly ADD node_modules/@rollup/rollup-linux-x64-musl
+119 silly ADD node_modules/@rollup/rollup-linux-x64-gnu
+120 silly ADD node_modules/@rollup/rollup-linux-s390x-gnu
+121 silly ADD node_modules/@rollup/rollup-linux-riscv64-musl
+122 silly ADD node_modules/@rollup/rollup-linux-riscv64-gnu
+123 silly ADD node_modules/@rollup/rollup-linux-ppc64-musl
+124 silly ADD node_modules/@rollup/rollup-linux-ppc64-gnu
+125 silly ADD node_modules/@rollup/rollup-linux-loong64-musl
+126 silly ADD node_modules/@rollup/rollup-linux-loong64-gnu
+127 silly ADD node_modules/@rollup/rollup-linux-arm64-musl
+128 silly ADD node_modules/@rollup/rollup-linux-arm64-gnu
+129 silly ADD node_modules/@rollup/rollup-linux-arm-musleabihf
+130 silly ADD node_modules/@rollup/rollup-linux-arm-gnueabihf
+131 silly ADD node_modules/@rollup/rollup-freebsd-x64
+132 silly ADD node_modules/@rollup/rollup-freebsd-arm64
+133 silly ADD node_modules/@rollup/rollup-darwin-x64
+134 silly ADD node_modules/@rollup/rollup-darwin-arm64
+135 silly ADD node_modules/@rollup/rollup-android-arm64
+136 silly ADD node_modules/@rollup/rollup-android-arm-eabi
+137 silly ADD node_modules/@esbuild/win32-ia32
+138 silly ADD node_modules/@esbuild/win32-arm64
+139 silly ADD node_modules/@esbuild/sunos-x64
+140 silly ADD node_modules/@esbuild/openbsd-x64
+141 silly ADD node_modules/@esbuild/netbsd-x64
+142 silly ADD node_modules/@esbuild/linux-x64
+143 silly ADD node_modules/@esbuild/linux-s390x
+144 silly ADD node_modules/@esbuild/linux-riscv64
+145 silly ADD node_modules/@esbuild/linux-ppc64
+146 silly ADD node_modules/@esbuild/linux-mips64el
+147 silly ADD node_modules/@esbuild/linux-loong64
+148 silly ADD node_modules/@esbuild/linux-ia32
+149 silly ADD node_modules/@esbuild/linux-arm64
+150 silly ADD node_modules/@esbuild/linux-arm
+151 silly ADD node_modules/@esbuild/freebsd-x64
+152 silly ADD node_modules/@esbuild/freebsd-arm64
+153 silly ADD node_modules/@esbuild/darwin-x64
+154 silly ADD node_modules/@esbuild/darwin-arm64
+155 silly ADD node_modules/@esbuild/android-x64
+156 silly ADD node_modules/@esbuild/android-arm64
+157 silly ADD node_modules/@esbuild/android-arm
+158 silly ADD node_modules/@esbuild/aix-ppc64
+159 verbose cwd D:\chatRoom\frontend
+160 verbose os Windows_NT 10.0.17134
+161 verbose node v24.10.0
+162 verbose npm  v11.6.1
+163 notice
+163 notice New [33mminor[39m version of npm available! [33m11.6.1[39m -> [34m11.12.1[39m
+163 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.12.1[39m
+163 notice To update run: [4mnpm install -g npm@11.12.1[24m
+163 notice  { force: true, Symbol(proc-log.meta): true }
+164 verbose exit 0
+165 info ok

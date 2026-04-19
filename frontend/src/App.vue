@@ -147,7 +147,12 @@ async function loadDirects() {
 }
 
 async function searchUsers() {
-  userResults.value = await chatApi.discoverUsers(userKeyword.value.trim())
+  const keyword = userKeyword.value.trim()
+  if (!keyword) {
+    userResults.value = []
+    return
+  }
+  userResults.value = await chatApi.discoverUsers(keyword)
 }
 
 async function searchRooms() {
