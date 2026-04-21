@@ -8,3 +8,9 @@ chat.sqlite
 chat.sqlite-shm
 chat.sqlite-wal
 .env.example
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
