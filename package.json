@@ -6,7 +6,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "echo 'Build completed'"
+    "build": "echo 'Build completed'",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -17,5 +19,8 @@
     "socket.io": "^4.7.5",
     "sqlite3": "^5.1.7",
     "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.84.0"
   }
 }
